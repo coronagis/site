@@ -10,7 +10,7 @@ link & button
 **************************************/
 .white
 {
-	color:#fff !important;
+	color:#e1e1e1 !important;
 }
 h1.cta-title
 {
@@ -20,6 +20,7 @@ h1
 {
 	font-size: 36px;
 }
+
 /**************************************
 Header
 **************************************/
@@ -29,7 +30,7 @@ Header
 }
 .main-navigation
 {
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #e1e1e1;
 }
 .navbar-default {
     background-color: #e1e1e1;
@@ -37,10 +38,11 @@ Header
     padding: 20px 0px;
 }
 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+/* .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
     color: #354242;
     background-color: #e1e1e1;
-}
+} */
+
 .navbar-nav {
     padding-top: 5px;
 }
