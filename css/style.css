@@ -32,24 +32,26 @@ Header
     border-bottom: 1px solid #eee;
 }
 .navbar-default {
-    background-color: #fff;
-    border-color: rgba(231, 231, 231, 0.33);
+    background-color: #e1e1e1;
+    /* border-color: rgba(231, 231, 231, 0.33); */
     padding: 20px 0px;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
     color: #354242;
-    background-color: #fff;
+    background-color: #e1e1e1;
 }
 .navbar-nav {
     padding-top: 5px;
 }
 
-.navbar-default .navbar-nav > .active > a,.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus
+/* Direções/Movimento dos itens dos menus */
+/* .navbar-default .navbar-nav > .active > a,.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus
 {
-	border-bottom: 2px solid #E74C3C;
+	border-bottom: 2px solid #74b4e8;
     outline: none;
-}
+} */
+
 .navbar {
 	min-height: inherit;
 	margin-bottom: 0px;
@@ -65,7 +67,7 @@ Header
 }
 
 .navbar-default .navbar-brand {
-    color: #e43c5c;
+    color: #1d44b8;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -83,7 +85,8 @@ Header
 .jumbotron
 {
     background-color: transparent;
-    padding-top: 90px;
+    padding-top: 200px;
+
 }
 .jumbotron p.big
 {
@@ -93,15 +96,16 @@ Header
     padding: 0px;
     letter-spacing: 6px;
     font-size: 15px;
-    color: #fff;
+    color: #333;
     text-transform: uppercase;
     font-weight: 400;
-    color: #ffffff;
+    color: #333;
     -webkit-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
     -moz-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
     -ms-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
     filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
     padding-top: 10px;
+    background-color: lightblue;
 }
 a.btn-banner {
     border: 1px solid #cdcdcd;
@@ -150,11 +154,12 @@ a.btn-banner:hover, a.btn-banner:focus
     letter-spacing: 6px;
     text-transform: uppercase;
     font-weight: 400;
-    color: #ffffff;
+    color: #333;
     -webkit-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
     -moz-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
     -ms-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
     filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
+    background-color: lightblue;
 }
 .container .jumbotron, .container-fluid .jumbotron {
     padding-right: 60px;
@@ -524,7 +529,7 @@ margin-top: 5px;
 }
 #banner
 {
-    background: url('../img/banner-bg.jpg') no-repeat;
+    background: url('../img/portfolio/NUMERO_CASOS.png') no-repeat;
     background-size: cover;
     min-height: 500px;
 }
