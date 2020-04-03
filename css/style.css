@@ -257,11 +257,14 @@ p.cta-sub-title
 	border: 1px solid rgba(204, 204, 204, 0.33);
 	float: left;
 	width: 100%;
-	border-radius: 3px;
+    border-radius: 3px;
+}
+.team-info img {
+    max-height: 275px;
 }
 .fig-caption
 {
-	padding: 56px 20px 0px;
+	padding: 5px 20px;
 }
 .fig-caption h3
 {
