@@ -196,7 +196,7 @@ p.cta-sub-title
 {
 	width: 100px;
 	height: 3px;
-	background-color: #e43c5c;
+	background-color: #add8e6;
 }
 .service-box {
     margin: 0 0 60px;
@@ -318,7 +318,7 @@ margin-top: 5px;
 
 /* Portfolio */
 #portfolio {
-  background: #fff;
+  background: #e1e1e1;
   padding: 80px 0;
 }
 
@@ -529,7 +529,7 @@ margin-top: 5px;
 .footer_copyright a {
     color: #e43c5c;
 }
-#banner
+#home
 {
     background: url('../img/portfolio/NUMERO_CASOS.png') no-repeat;
     background-size: cover;
