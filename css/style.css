@@ -185,7 +185,7 @@ a.btn-banner:hover, a.btn-banner:focus
 }
 .cta-1, .cta2
 {
-	background-color: #e43c5c;
+	background-color: #ed3237;
 	padding: 40px 0px;
 }
 p.cta-sub-title
@@ -347,7 +347,7 @@ margin-top: 5px;
 }
 
 #portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
-  background: #E43C5C;
+  background: #ed3237;
   color: #fff;
 }
 
@@ -460,7 +460,7 @@ margin-top: 5px;
 }
 
 .button-medium {
-    background: #e43c5c;
+    background: #ed3237;
     border-radius: 40px;
     color: #ffffff;
     cursor: pointer;
