@@ -1,4 +1,4 @@
-# Fluxo Básico
+# Orientações Gerais
 ## Clonando o Projeto
 Faça uma cópia local do projeto utilizando a seguinte instrução:
 
@@ -48,3 +48,10 @@ Depois disso, consulte nosso repositório e faça um [Pull Request](https://help
 1. [Git](https://git-scm.com/)
 2. [git - guia prático](https://rogerdudler.github.io/git-guide/index.pt_BR.html)
 3. [GIT - Avançado](https://gist.github.com/leocomelli/2545add34e4fec21ec16)
+
+```
+Theme Name: Tempo
+Theme URL: https://bootstrapmade.com/tempo-free-onepage-bootstrap-theme/
+Author: BootstrapMade.com
+Author URL: https://bootstrapmade.com
+```
