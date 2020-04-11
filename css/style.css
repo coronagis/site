@@ -23,6 +23,11 @@ h1 {
 /**************************************
 Header
 **************************************/
+.intro-text {
+    font-size: 2.5rem;
+    text-justify: distribute;
+}
+
 .section-padding {
     padding: 40px 0px;
 }
@@ -86,7 +91,10 @@ Header
 }
 
 .jumbotron {
-    background-color: transparent;
+    
+    background: url('../img/portfolio/NUMERO_CASOS.png') no-repeat;
+    background-size: cover;
+    min-height: 500px;
     padding-top: 200px;
 
 }
@@ -326,6 +334,10 @@ p.cta-sub-title {
 }
 
 /* Portfolio */
+
+.portfolio-item-img {
+    width: 100%
+}
 #portfolio {
     background: #e1e1e1;
     padding: 80px 0;
@@ -549,12 +561,6 @@ p.cta-sub-title {
 
 .footer_copyright a {
     color: #e43c5c;
-}
-
-#home {
-    background: url('../img/portfolio/NUMERO_CASOS.png') no-repeat;
-    background-size: cover;
-    min-height: 500px;
 }
 
 .cta2 .btn-default,
