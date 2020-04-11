@@ -70,8 +70,8 @@
             <li><a href="#service">Produtos</a></li>
             <li><a href="#portfolio">Portfólio</a></li>
             <li><a href="#about">Equipe</a></li>
-            <li><a href="#">WebGIS</a></li>
-            <li><a href="#">API</a></li>
+            <!-- <li><a href="#">WebGIS</a></li>
+            <li><a href="#">API</a></li> -->
             <li><a href="#contact">Contato</a></li>
           </ul>
         </div>
@@ -82,14 +82,28 @@
 
   <!--home START-->
   <div id="home" class="section-padding">
-    <div class="container">
       <div class="row">
         <div class="jumbotron">
-          <h1 class="small">Bem vind@s ao <span class="bold"><b>CoronaGIS</b></span></h1>
-          <p class="big">Plataforma integrada para coleta de dados endêmicos</p>
-        </div>
+          <div class="container">
+            <h1 class="small">Bem vind@s ao <span class="bold"><b>CoronaGIS</b></span></h1>
+            <p class="big">SOLUÇÕES PARA CADASTRO E DIVULGAÇÃO DE DADOS EPIDEMIOLÓGICOS</p>
+          </div>          
+        </div>                
       </div>
-    </div>
+      <div class="row">
+        <div class="container">
+          <p class="intro-text">Desenvolvimento de aplicação WebGIS para divulgar informações epidemiológicas, utilizando como 
+            Estudo de Caso a disseminação do Coronavírus (COVID-19) no Estado de Santa Catarina.
+          </p>
+          <p class="intro-text">
+            Desenvolvimento de API (Application Programming Interface) a ser utilizado como recurso 
+            tecnológico para auxílio no diagnóstico, acompanhamento e divulgação de epidemias.
+          </p>
+        </div>
+
+        
+      </div>
+    
   </div>
   <!--home END-->
 
@@ -100,7 +114,7 @@
       <div class="row">
         <div class="page-title text-center">
           <h1>Produtos</h1>
-          <p>Materiais resultantes da iniciativa</p>
+          <p>Resultados do Projeto</p>
           <hr class="pg-titl-bdr-btm"></hr>
         </div>
         <div class="autoplay">
@@ -172,136 +186,28 @@
         <div class="col-lg-12">
           <ul id="portfolio-flters">
             <li data-filter=".filter-app, .filter-card, .filter-logo, .filter-web" class="filter-active">All</li>
-            <li data-filter=".filter-app">API</li>
-            <li data-filter=".filter-card"> Modelagem do Banco de Dados</li>
-            <li data-filter=".filter-logo">Relatórios</li>
-            <li data-filter=".filter-web">Gráficos </li>
+            <!-- <li data-filter=".filter-app">API</li> -->
+            <!-- <li data-filter=".filter-card"> Modelagem do Banco de Dados</li> -->
+            <!-- <li data-filter=".filter-logo">Relatórios</li> -->
+            <!-- <li data-filter=".filter-web">Gráficos </li>
             <li data-filter=".filter-web">Mapas</li>
-            <li data-filter=".filter-web">WebGIS</li>
+            <li data-filter=".filter-web">WebGIS</li> -->
           </ul>
         </div>
       </div>
 
       <div class="row" id="portfolio-wrapper">
         <div class="col-lg-3 col-md-6 portfolio-item filter-app">
-          <a href="">
-            <img src="img/portfolio/app1.jpg" alt="">
+          <a target="_blank" href="img/modelagem/fluxo-corona.jpg">
+            <img class="portfolio-item-img" src="img/modelagem/fluxo-corona.jpg" alt="Fluxo de dados ">
             <div class="details">
-              <h4>App 1</h4>
-              <span>Alored dono par</span>
+              <h4>Fluxo Corona</h4>
+              <!-- <span>Fluxo Corona</span> -->
             </div>
           </a>
         </div>
 
-        <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-          <a href="">
-            <img src="img/portfolio/web2.jpg" alt="">
-            <div class="details">
-              <h4>Web 2</h4>
-              <span>Alored dono par</span>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-lg-3 col-md-6 portfolio-item filter-app">
-          <a href="">
-            <img src="img/portfolio/app3.jpg" alt="">
-            <div class="details">
-              <h4>App 3</h4>
-              <span>Alored dono par</span>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-          <a href="">
-            <img src="img/portfolio/card1.jpg" alt="">
-            <div class="details">
-              <h4>Card 1</h4>
-              <span>Alored dono par</span>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-          <a href="">
-            <img src="img/portfolio/card2.jpg" alt="">
-            <div class="details">
-              <h4>Card 2</h4>
-              <span>Alored dono par</span>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-          <a href="">
-            <img src="img/portfolio/web3.jpg" alt="">
-            <div class="details">
-              <h4>Web 3</h4>
-              <span>Alored dono par</span>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-          <a href="">
-            <img src="img/portfolio/card3.jpg" alt="">
-            <div class="details">
-              <h4>Card 3</h4>
-              <span>Alored dono par</span>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-lg-3 col-md-6 portfolio-item filter-app">
-          <a href="">
-            <img src="img/portfolio/app2.jpg" alt="">
-            <div class="details">
-              <h4>App 2</h4>
-              <span>Alored dono par</span>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
-          <a href="">
-            <img src="img/portfolio/logo1.jpg" alt="">
-            <div class="details">
-              <h4>Logo 1</h4>
-              <span>Alored dono par</span>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
-          <a href="">
-            <img src="img/portfolio/logo3.jpg" alt="">
-            <div class="details">
-              <h4>Logo 3</h4>
-              <span>Alored dono par</span>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-          <a href="">
-            <img src="img/portfolio/web1.jpg" alt="">
-            <div class="details">
-              <h4>Web 1</h4>
-              <span>Alored dono par</span>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
-          <a href="">
-            <img src="img/portfolio/logo2.jpg" alt="">
-            <div class="details">
-              <h4>Logo 2</h4>
-              <span>Alored dono par</span>
-            </div>
-          </a>
-        </div>
+        
       </div>
     </div>
   </div>
