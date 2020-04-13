@@ -24,7 +24,7 @@ h1 {
 Header
 **************************************/
 .intro-text {
-    font-size: 2.3rem;
+    font-size: 2rem;
     text-align: justify;
 }
 
@@ -237,7 +237,6 @@ p.cta-sub-title {
 
 .service-box .service-text {
     width: 70%;
-    float: left;
     margin-bottom: 20px;
 }
 
@@ -331,6 +330,12 @@ p.cta-sub-title {
 
 .fnt-24 {
     font-size: 24px;
+}
+
+/* Sobre */
+
+.about-video {
+    width: 100%;
 }
 
 /* Portfolio */
@@ -604,6 +609,10 @@ cta
 }
 
 @media (min-width: 301px) and (max-width: 450px) {
+    .service-box .service-text {
+        width: 100%;
+    }
+
     .slick-slider {
         width: 92%;
     }
