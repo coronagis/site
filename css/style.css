@@ -8,13 +8,6 @@
 /**************************************
 link & button
 **************************************/
-.navbar-collapse {
-	position: absolute;
-	top: 59px;
-	left: 0px;
-	width: 100%;
-}
-
 .white {
 	color: #e1e1e1 !important;
 }
@@ -69,6 +62,7 @@ Header
 }
 
 .navbar-collapse {
+	position: relative;
 	background-color: #e1e1e1;
 	z-index: 9999;
 }
@@ -78,7 +72,6 @@ Header
 	background-size: cover;
 	min-height: 500px;
 	padding-top: 200px;
-
 }
 
 .jumbotron p.big {
@@ -774,5 +767,14 @@ p.cta-sub-title {
 
 	.navbar-default .navbar-nav>li>a:hover {
 		border: 0px;
+	}
+}
+
+@media (max-width: 992px) {
+	.navbar-collapse {
+		position: absolute;
+		top: 59px;
+		left: 0px;
+		width: 100%;
 	}
 }
