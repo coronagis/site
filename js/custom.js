@@ -15,10 +15,6 @@
     }
   });
 
-  $(".navbar-collapse a").on('click', function() {
-    $(".navbar-collapse.collapse").removeClass('in');
-  });
-
   // Porfolio filer
   $("#portfolio-flters li").click(function() {
     $("#portfolio-flters li").removeClass('filter-active');
@@ -40,11 +36,18 @@
     dots: true,
     infinite: true,
     speed: 300,
-    slidesToShow: 2,
+    slidesToShow: 3,
     autoplay: true,
     autoplaySpeed: 3000,
-    responsive: [{
-        breakpoint: 480,
+    responsive: [
+      {
+        breakpoint: 1023,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },{
+        breakpoint: 760,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
