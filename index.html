@@ -47,38 +47,28 @@
 
 <body>
   <!--HEADER START-->
-  <div class="main-navigation navbar-fixed-top">
-    <nav class="navbar navbar-default">
-      <div class="container">
 
-        <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-			    <span class="icon-bar"></span>
-			    <span class="icon-bar"></span>
-			    <span class="icon-bar"></span>
-        </button>
-
-        <!-- Logo -->
-        <a class="navbar-brand" href="#home">
-            <img src="img/logo.svg" alt="" style="width: 250px;">
-        </a>
-
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#home">Projeto</a></li>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#service">Produtos</a></li>
-            <li><a href="#portfolio">Portfólio</a></li>
-            <li><a href="#about">Equipe</a></li>
-            <!-- <li><a href="#">WebGIS</a></li>
-            <li><a href="#">API</a></li> -->
-            <li><a href="#contact">Contato</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </div>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="/#">
+        <img src="img/logo.svg" alt="Logotipo CoronaGIS">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbar">
+        <ul class="navbar-nav align-items-center">
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#service">Produtos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfólio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">Equipe</a></li>
+          <!-- <li><a href="#">WebGIS</a></li>
+          <li><a href="#">API</a></li> -->
+          <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
+        </ul>
+      </div>         
+    </div>    
+  </nav>
   <!--HEADER END-->
 
   <!--home START-->
@@ -90,61 +80,54 @@
             <p class="big">SOLUÇÕES PARA CADASTRO E DIVULGAÇÃO DE DADOS EPIDEMIOLÓGICOS</p>
           </div>          
         </div>                
-      </div>
-    
+      </div>    
   </div>
   <!--home END-->
 
-<!--Sobre--> 
-<div id="sobre" class="section-padding">
-  <div class="container">
-    <div>
-      <div class="page-title text-center">
+  <!--Sobre--> 
+  <div id="sobre" class="section-padding">
+    <div class="container">      
+      <div class="page-title">
         <h1>Sobre o Projeto</h1>
         <p>Nossas Intenções</p>
         <hr class="pg-titl-bdr-btm"></hr>
-        <div class="container">
-          <div>
-            <div class="col-lg-6 about-img">
-              <video class="about-video" autoplay loop muted playsinline>
-                <source src="img/gif/avanco-covid.mp4" type="video/mp4">
-                <img src="img/gif/avanco-covid.mp4">
-            </video>
-            </div>
-            
-            <div class="col-lg-6 content">
-              <p class="intro-text">Desenvolvimento de aplicação WebGIS para divulgar informações epidemiológicas, utilizando como 
-                Estudo de Caso a disseminação do Coronavírus (COVID-19) no Estado de Santa Catarina.
-              </p>
-              <p class="intro-text">
-                Desenvolvimento de API (Application Programming Interface) a ser utilizado como recurso 
-                tecnológico para auxílio no diagnóstico, acompanhamento e divulgação de epidemias.
-              </p>
-            </div>
+        <div class="row">
+          <div class="col-lg-6 about-img">
+            <video class="about-video" autoplay loop muted playsinline>
+              <source src="img/gif/avanco-covid.mp4" type="video/mp4">
+              <img src="img/gif/avanco-covid.mp4">
+          </video>
           </div>
-  
+          
+          <div class="col-lg-6 content">
+            <p class="intro-text">Desenvolvimento de aplicação WebGIS para divulgar informações epidemiológicas, utilizando como 
+              Estudo de Caso a disseminação do Coronavírus (COVID-19) no Estado de Santa Catarina.
+            </p>
+            <p class="intro-text">
+              Desenvolvimento de API (Application Programming Interface) a ser utilizado como recurso 
+              tecnológico para auxílio no diagnóstico, acompanhamento e divulgação de epidemias.
+            </p>
+          </div>
         </div>
       </section>
       </div>
-    </div>
-</div>
+    </div>    
+  </div>
 
-  <!--Produtos-->
-  <div id="service" class="section-padding">
-    <div class="container">
-      <div>
+    <!--Produtos-->
+    <div id="service" class="section-padding">
+      <div class="container">        
         <div class="page-title text-center">
           <h1>Produtos</h1>
           <p>Resultados do Projeto</p>
           <hr class="pg-titl-bdr-btm"></hr>
         </div>
         <div class="autoplay">
-
           <div class="service-box">
             <div class="service-icon"><i class="fa fa-database"></i></div>
             <div class="service-text">
               <h3><b>API</b></h3>
-              <p class="text-justify">A API proposta neste projeto deverá ser utilizado como recurso tecnológico pelos agentes de saúde, que poderão inserir dados acerca de patologias epidemiológicas (Coronavírus, H1N1, sarampo, meningite, entre outras), de forma organizada e inteligível, incluindo origem e forma de contágio, endereço e demais informações que, através de inteligência geográfica, possam ser georreferenciadas.</p>
+              <p>A API proposta neste projeto deverá ser utilizado como recurso tecnológico pelos agentes de saúde, que poderão inserir dados acerca de patologias epidemiológicas (Coronavírus, H1N1, sarampo, meningite, entre outras), de forma organizada e inteligível, incluindo origem e forma de contágio, endereço e demais informações que, através de inteligência geográfica, possam ser georreferenciadas.</p>
             </div>
           </div>
 
@@ -152,7 +135,7 @@
             <div class="service-icon"><i class="fa fa fa-server"></i></div>
             <div class="service-text">
               <h3><b>Modelagem de Banco de Dados Epidemiológico</b></h3>
-              <p class="text-justify">Dados epidemiológicos, como o Coronavírus, possuem característica abstrata, pois não são perceptíveis ao olho nu na natureza. Neste projeto será produzida uma modelagem de dados epidemiológicos que envolva a descrição de patologias, endereços, quantitativos, origem e demais atributos, de forma a facilitar a tomada de decisão por parte dos gestores públicos, como, por exemplo, estimar o número de leitos e o número de respiradores necessários.</p>
+              <p>Dados epidemiológicos, como o Coronavírus, possuem característica abstrata, pois não são perceptíveis ao olho nu na natureza. Neste projeto será produzida uma modelagem de dados epidemiológicos que envolva a descrição de patologias, endereços, quantitativos, origem e demais atributos, de forma a facilitar a tomada de decisão por parte dos gestores públicos, como, por exemplo, estimar o número de leitos e o número de respiradores necessários.</p>
             </div>
           </div>
 
@@ -160,7 +143,7 @@
             <div class="service-icon"><i class="fa fa-notes-medical"></i></div>
             <div class="service-text">
               <h3><b>Relatórios Analíticos</b></h3>
-              <p class="text-justify">Análises qualitativas que relacionem as medidas protetivas do Estado de Santa Catarina com a curva de contaminação do Coronavírus em SC.</p>
+              <p>Análises qualitativas que relacionem as medidas protetivas do Estado de Santa Catarina com a curva de contaminação do Coronavírus em SC.</p>
             </div>
           </div>
 
@@ -168,7 +151,7 @@
             <div class="service-icon"><i class="fa fa fa-chart-line"></i></div>
             <div class="service-text">
               <h3><b>Gráficos</b></h3>
-              <p class="text-justify">Acompanhamento e compilação das informações a partir do primeiro caso de coronavírus confirmado no Estado de Santa Catarina (SC) em 12/03/2020, advindos da Secretaria de Estado de Saúde (SES), com frequência diária, até a estabilização da pandemia.</p>
+              <p>Acompanhamento e compilação das informações a partir do primeiro caso de coronavírus confirmado no Estado de Santa Catarina (SC) em 12/03/2020, advindos da Secretaria de Estado de Saúde (SES), com frequência diária, até a estabilização da pandemia.</p>
             </div>
           </div>
 
@@ -176,7 +159,7 @@
             <div class="service-icon"><i class="fa fa fa-map"></i></div>
             <div class="service-text">
               <h3><b>Mapas</b></h3>
-              <p class="text-justify">Produção de mapas em sotwares  via Sistemas de Informações Geográficas (SIG) sobre a pandemia de Coronavírus, que serão inseridos nos relatórios.</p>
+              <p>Produção de mapas em sotwares  via Sistemas de Informações Geográficas (SIG) sobre a pandemia de Coronavírus, que serão inseridos nos relatórios.</p>
             </div>
           </div>
 
@@ -184,16 +167,12 @@
             <div class="service-icon"><i class="fa fa fa-code"></i></div>
             <div class="service-text">
               <h3><b>WebGIS</b></h3>
-              <p class="text-justify">Produção de mapas dinâmicos sobre a pandemia de Coronavírus, que serão atualizados diariamente via Sistemas de Informações Geográficas (SIG).</p>
+              <p>Produção de mapas dinâmicos sobre a pandemia de Coronavírus, que serão atualizados diariamente via Sistemas de Informações Geográficas (SIG).</p>
             </div>
           </div>
-
-        </div>
-
         </div>
       </div>
     </div>
-  </div>
 
 
   <div id="portfolio">
@@ -226,9 +205,7 @@
               <!-- <span>Fluxo Corona</span> -->
             </div>
           </a>
-        </div>
-
-        
+        </div>       
       </div>
     </div>
   </div>
@@ -245,198 +222,160 @@
         <div class="autoplay">
 
           <!--Vivian-->
-          <div class="col-md-6">
-            <div class="team-info">
-              <div class="img-sec">
-                <img src="img/time/vivian.jpg" class="img-responsive">
-              </div>
-              <div class="fig-caption">
-                <h3>Prof. Dr Vivian Celestino</h3>
-                <p class="marb-20">Professora no Departamento de Engenharia Civil e no Programa de pós GRaduação em Engenharia de Transportes e Gestão Territorial - UFSC
-                Coordenadora do Projeto</p>
-
-                <p>E-mail:</p>
-                <ul class="team-social">
-                  <li class="blue-dark"><a href="mailto:vivian.celestino@ufsc.br"><i class="fa fa-envelope"></i></a></li>
-                </ul>
-              </div>
+          <div class="card">
+            <div class="card-img-wapper" 
+              style="background-image: url(img/time/vivian.jpg);">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Prof. Dr Vivian Celestino</h5>
+              <p class="card-text">Professora no Departamento de Engenharia Civil e 
+                no Programa de pós Graduação em Engenharia de Transportes e Gestão Territorial - UFSC
+                Coordenadora do Projeto
+              </p>
+              <ul class="team-social">
+                <li class="blue-dark"><a href="mailto:vivian.celestino@ufsc.br"><i class="fa fa-envelope"></i></a></li>
+              </ul>
             </div>
           </div>
 
           <!--Norberto-->
-          <div class="col-md-6">
-            <div class="team-info">
-              <div class="img-sec">
-                <img src="img/time/norberto_hochheim.jpg" class="img-responsive">
-              </div>
-              <div class="fig-caption">
-                <h3>Prof. Dr Norberto Hochheim</h3>
-                <p class="marb-20">Professor do Departamento de Engenharia Civil da UFSC, Engenheiro Civil, com doutorado em Engenharia da Produção pela Université de Lorraine (Nancy/França)</p>
-
-                <p>E-mail:</p>
-                <ul class="team-social">
-                  <li class="blue-dark"><a href="mailto:norberto.hochheim@ufsc.br"><i class="fa fa-envelope"></i></a></li>
-                </ul>
-
-              </div>
+          <div class="card">
+            <div class="card-img-wapper" 
+              style="background-image: url(img/time/norberto_hochheim.jpg);">
+            </div>            
+            <div class="card-body">
+              <h5 class="card-title">Prof. Dr Norberto Hochheim</h5>
+              <p class="card-text">Professor do Departamento de Engenharia Civil da UFSC, Engenheiro Civil, 
+                com doutorado em Engenharia da Produção pela Université de Lorraine (Nancy/França)
+              </p>
+              <ul class="team-social">
+                <li class="blue-dark"><a href="mailto:norberto.hochheim@ufsc.br"><i class="fa fa-envelope"></i></a></li>
+              </ul>
             </div>
           </div>
 
           <!--André-->
-           <div class="col-md-6">
-            <div class="team-info">
-              <div class="img-sec">
-                <img src="img/time/andre_bozio.jpg" class="img-responsive">
-              </div>
-              <div class="fig-caption">
-                <h3> André Felipe Bozio</h3>
-                <p class="marb-20">Engenheiro Civil, Pós-graduando em Projeto, Execução e Desempenho de Estruturas e Fundações. Mestrando em Engenharia de Transportes e Gestão Territorial (PPGTG) UFSC.</p>
-
-               <p>E-mail:</p>
-                <ul class="team-social">
-                  <li class="blue-dark"><a href="mailto:andrefbozio@gmail.com"><i class="fa fa-envelope"></i></a></li>
-                </ul>
-
-              </div>
+          <div class="card">
+            <div class="card-img-wapper" 
+              style="background-image: url(img/time/andre_bozio.jpg);">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">André Felipe Bozio</h5>
+              <p class="card-text">Engenheiro Civil, Pós-graduando em Projeto, 
+                Execução e Desempenho de Estruturas e Fundações. 
+                Mestrando em Engenharia de Transportes e Gestão Territorial (PPGTG) UFSC.
+              </p>
+              <ul class="team-social">
+                <li class="blue-dark"><a href="mailto:andrefbozio@gmail.com"><i class="fa fa-envelope"></i></a></li>
+              </ul>
             </div>
           </div>
 
           <!--Allan-->
-          <div class="col-md-6">
-            <div class="team-info">
-              <div class="img-sec">
-                <img src="img/time/alan_oliveira.jpg" class="img-responsive">
-              </div>
-              <div class="fig-caption">
-                <h3> Alan Vodonos de Oliveira</h3>
-                <p class="marb-20">Discente do Curso de Graduação em Engenharia Civil da UFSC</p>
-
-               <p>E-mail:</p>
-                <ul class="team-social">
-                  <li class="blue-dark"><a href="mailto:oliveiravalan@gmail.com"><i class="fa fa-envelope"></i></a></li>
-                </ul>
-
-              </div>
+          <div class="card">
+            <div class="card-img-wapper" 
+              style="background-image: url(img/time/alan_oliveira.jpg);">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Alan Vodonos de Oliveira</h5>
+              <p class="card-text">Discente do Curso de Graduação em Engenharia Civil da UFSC</p>
+              <ul class="team-social">
+                <li class="blue-dark"><a href="mailto:oliveiravalan@gmail.com"><i class="fa fa-envelope"></i></a></li>
+              </ul>
             </div>
           </div>
 
           <!--Cy-->
-          <div class="col-md-6">
-            <div class="team-info">
-              <div class="img-sec">
-                <img src="img/time/cyntia_oliveira.jpg" class="img-responsive">
-              </div>
-              <div class="fig-caption">
-                <h3> Cyntia A. F. de Oliveira</h3>
-                <p class="marb-20">Geógrafa. Mestranda em Engenharia de Transportes e Gestão Territorial - PPGTG UFSC</p>
-
-               <p>E-mail:</p>
-                <ul class="team-social">
-                  <li class="blue-dark"><a href="mailto:cyntiahera@gmail.com"><i class="fa fa-envelope"></i></a></li>
-                </ul>
-
-              </div>
+          <div class="card">
+            <div class="card-img-wapper" 
+              style="background-image: url(img/time/cyntia_oliveira.jpg);">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Cyntia A. F. de Oliveira</h5>
+              <p class="card-text">Geógrafa. Mestranda em Engenharia de Transportes e Gestão Territorial - PPGTG UFSC</p>
+              <ul class="team-social">
+                <li class="blue-dark"><a href="mailto:cyntiahera@gmail.com"><i class="fa fa-envelope"></i></a></li>
+              </ul>
             </div>
           </div>
 
           <!--Guilherme-->
-          <div class="col-md-6">
-            <div class="team-info">
-              <div class="img-sec">
-                <img src="img/time/guilherme.jpg" class="img-responsive">
-              </div>
-              <div class="fig-caption">
-                <h3> Guilherme de A. Armenio</h3>
-                <p class="marb-20">Eng. Florestal. Especialista em Georreferenciamento de Imóveis. Mestrando em Engenharia
-                  de Transportes e Gestão Territorial - PPGTG UFSC
-                </p>
-                <p>E-mail:</p>
-                <ul class="team-social">
-                  <li class="blue-dark"><a href="#"><i class="fa fa-envelope"></i></a></li>
-                </ul>
-              </div>
+          <div class="card">
+            <div class="card-img-wapper" 
+              style="background-image: url(img/time/guilherme.jpg);">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Guilherme de A. Armenio</h5>
+              <p class="card-text">Eng. Florestal. Especialista em Georreferenciamento de Imóveis. 
+                Mestrando em Engenharia de Transportes e Gestão Territorial - PPGTG UFSC
+              </p>
+              <ul class="team-social">
+                <li class="blue-dark"><a href="#"><i class="fa fa-envelope"></i></a></li>
+              </ul>
             </div>
           </div>
 
           <!--Jackson-->
-          <div class="col-md-6">
-            <div class="team-info">
-              <div class="img-sec">
-                <img src="img/time/jackson_braga.jpg" class="img-responsive">
-              </div>
-              <div class="fig-caption">
-                <h3>Jackson Osvaldo da Silva Braga</h3>
-                <p class="marb-20">Discente do Curso de Graduação em Engenharia Ambiental e Energias Renováveis da UFRA, Capanema-PA</p>
-
-              <p>E-mail:</p>
-                <ul class="team-social">
-                  <li class="blue-dark"><a href="mailto:jacksonenazus@gmail.com"><i class="fa fa-envelope"></i></a></li>
-                </ul>
-
-              </div>
+          <div class="card">
+            <div class="card-img-wapper" 
+              style="background-image: url(img/time/jackson_braga.jpg);">
+            </div>    
+            <div class="card-body">
+              <h5 class="card-title">Jackson Osvaldo da Silva Braga</h5>
+              <p class="card-text">Discente do Curso de Graduação em Engenharia Ambiental e 
+                Energias Renováveis da UFRA, Capanema-PA
+              </p>
+              <ul class="team-social">
+                <li class="blue-dark"><a href="mailto:jacksonenazus@gmail.com"><i class="fa fa-envelope"></i></a></li>
+              </ul>
             </div>
           </div>
 
           <!--Josi-->
-          <div class="col-md-6">
-            <div class="team-info">
-              <div class="img-sec">
-                <img src="img/time/josiane_rovedder.jpg" class="img-responsive">
-              </div>
-              <div class="fig-caption">
-                <h3>Josiane Rovedder</h3>
-                <p class="marb-20">
-                  Bióloga, mestre em Sensoriamento Remoto e doutoranda em Geografia pela Universidade Federal de Santa Catarina.
-                </p>
-
-                <p>E-mail:</p>
-                <ul class="team-social">
-                  <li class="blue-dark"><a href="mailto:josiane@talhamar.com"><i class="fa fa-envelope"></i></a></li>
-                </ul>
-
-              </div>
+          <div class="card">
+            <div class="card-img-wapper" 
+              style="background-image: url(img/time/josiane_rovedder.jpg);">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Josiane Rovedder</h5>
+              <p class="card-text">Bióloga, mestre em Sensoriamento Remoto e doutoranda em 
+                Geografia pela Universidade Federal de Santa Catarina.
+              </p>
+              <ul class="team-social">
+                <li class="blue-dark"><a href="mailto:josiane@talhamar.com"><i class="fa fa-envelope"></i></a></li>
+              </ul>
             </div>
           </div>
 
           <!--Douglas-->
-          <div class="col-md-6">
-            <div class="team-info">
-              <div class="img-sec">
-                <img src="img/time/douglas_franco.jpg" class="img-responsive">
-              </div>
-              <div class="fig-caption">
-                <h3>Douglas Robert Di Franco</h3>
-                <p class="marb-20">Técnologo em Sistemas para Internet pela UNICESUMAR e Desenvolvedor Front-end</p>
-
-                <p>E-mail:</p>
-                <ul class="team-social">
-                  <li class="blue-dark"><a href="mailto:douglas.rfranco@gmail.com"><i class="fa fa-envelope"></i></a></li>
-                </ul>
-
-              </div>
+          <div class="card">
+            <div class="card-img-wapper" 
+              style="background-image: url(img/time/douglas_franco.jpg);">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Douglas Robert Di Franco</h5>
+              <p class="card-text">Técnologo em Sistemas para Internet pela UNICESUMAR e Desenvolvedor Front-end</p>
+              <ul class="team-social">
+                <li class="blue-dark"><a href="mailto:douglas.rfranco@gmail.com"><i class="fa fa-envelope"></i></a></li>
+              </ul>
             </div>
           </div>
 
           <!--Samuel-->
-          <div class="col-md-6">
-            <div class="team-info">
-              <div class="img-sec">
-                <img src="img/time/samuel_fernandez.jpg" class="img-responsive">
-              </div>
-              <div class="fig-caption">
-                <h3> Samuel de Souza Fernandez</h3>
-                <p class="marb-20">Geógrafo e Mestre em Planejamento Territorial e Desenvolvimento Socioambiental (UDESC).
-                  Consultor de Geoprocessamento e Diretor da Onigeo Geotecnologia Ltda.
-                </p>
-
-                <p>E-mail:</p>
-                <ul class="team-social">
-                  <li class="blue-dark"><a href="mailto:samuel@onigeo.com.br"><i class="fa fa-envelope"></i></a></li>
-                </ul>
-
-              </div>
+          <div class="card">
+            <div class="card-img-wapper" 
+              style="background-image: url(img/time/samuel_fernandez.jpg);">
+            </div>            
+            <div class="card-body">
+              <h5 class="card-title">Samuel de Souza Fernandez</h5>
+              <p class="card-text">Geógrafo e Mestre em Planejamento Territorial e Desenvolvimento Socioambiental (UDESC).
+                Consultor de Geoprocessamento e Diretor da Onigeo Geotecnologia Ltda.
+              </p>
+              <ul class="team-social">
+                <li class="blue-dark"><a href="mailto:samuel@onigeo.com.br"><i class="fa fa-envelope"></i></a></li>
+              </ul>
             </div>
-          </div>
+          </div>       
 
         </div>
       </div>
@@ -447,7 +386,7 @@
   <!--CTA2 START-->
   <div class="cta2">
     <div class="container">
-      <div class="row white text-center">
+      <div class="white text-center">
         <h3 class="fnt-24">“De nada serviria possuir a capacidade de transformar pedras em ouro a quem não soubesse utilizar o ouro, de nada serviria uma ciência que tornasse imortal a quem não soubesse utilizar a imortalidade, e assim por diante.” - Platão</h3>
         <p class="cta-sub-title"></p>
       </div>
@@ -458,17 +397,17 @@
   <!--CONTACT START-->
   <div id="contact" class="section-padding">
     <div class="container">
-      <div>
-        <div class="page-title text-center">
-          <h1> Contate-nos</h1>
-          <p>Envie seu email e converse com nossa equipe. </p>
-          <hr class="pg-titl-bdr-btm"></hr>
-        </div>
-        <div id="sendmessage">Sua mensagem foi enviada. Obrigada!</div>
-        <div id="errormessage">Algo não meu muito certo! Tente novamente, por favor.</div>
+      <div class="page-title text-center">
+        <h1> Contate-nos</h1>
+        <p>Envie seu email e converse com nossa equipe. </p>
+        <hr class="pg-titl-bdr-btm"></hr>
+      </div>
+      <div id="sendmessage">Sua mensagem foi enviada. Obrigada!</div>
+      <div id="errormessage">Algo não meu muito certo! Tente novamente, por favor.</div>
 
-        <div class="form-sec">
-          <form action="https://mailthis.to/projeto.coronagis@gmail.com" method="post" role="form" class="contactForm">
+      <div class="form-sec">
+        <form action="https://mailthis.to/projeto.coronagis@gmail.com" method="post" role="form" class="contactForm">
+          <div class="row">
             <div class="col-md-4 form-group">
               <input type="text" name="name" class="form-control text-field-box" id="name" placeholder="Seu nome" data-rule="minlen:4" data-msg="Digite pelo menos 4 caracteres" />
               <div class="validation"></div>
@@ -480,15 +419,17 @@
             <div class="col-md-4 form-group">
               <input type="text" class="form-control text-field-box" name="Assunto" id="Assunto" placeholder="Assunto" data-rule="minlen:4" data-msg="Digite pelo menos 8 caracteres" />
               <div class="validation"></div>
-            </div>
+            </div>              
+          </div>
+          <div class="row">
             <div class="col-md-12 form-group">
               <textarea class="form-control text-field-box" name="message" rows="5" data-rule="required" data-msg="Por favor escreva algo para nós" placeholder="Mensagem"></textarea>
               <div class="validation"></div>
 
               <button class="button-medium" id="contact-submit" type="submit" name="contact" value="Send">Envio</button>
             </div>
-          </form>
-        </div>
+          </div>
+        </form>         
       </div>
     </div>
   </div>
@@ -497,10 +438,10 @@
   <!--FOOTER START-->
   <footer class="footer section-padding">
     <div class="container">
-      <div>
+      <div class="row">
         <div style="visibility: visible; animation-name: zoomIn;" class="col-sm-12 text-center wow zoomIn">
           <h3> Outros Contatos</h3>
-          <h3 class="text-white">projeto.coronagis@gmail.com</h3>
+          <p class="email-footer text-white">projeto.coronagis@gmail.com</p>
           <div class="footer_social">
             <ul>
               <li><a class="f_google" href="mailto:projeto.coronagis@gmail.com"><i class="fa fa-envelope"></i></a></li>
@@ -508,11 +449,8 @@
             </ul>
           </div>
         </div>
-        <!--- END COL -->
       </div>
-      <!--- END ROW -->
     </div>
-    <!--- END CONTAINER -->
   </footer>
   <!--FOOTER END-->
   <div class="footer-bottom">
