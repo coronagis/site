@@ -318,17 +318,16 @@ p.cta-sub-title {
 }
 
 /* Portfolio */
-
-.portfolio-item-img {
-	width: 100%
-}
-
 #portfolio {
 	background: #e1e1e1;
 	padding: 80px 0;
 }
 
 #portfolio #portfolio-wrapper {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
 	padding-right: 15px;
 }
 
@@ -363,6 +362,7 @@ p.cta-sub-title {
 #portfolio .portfolio-item {
 	position: relative;
 	height: 200px;
+	width: 300px;
 	overflow: hidden !important;
 	margin-bottom: 15px;
 	transition: all 350ms ease;
@@ -377,6 +377,7 @@ p.cta-sub-title {
 }
 
 #portfolio .portfolio-item img {
+	width: 100%;
 	position: relative;
 	top: 0;
 	transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
