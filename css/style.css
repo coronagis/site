@@ -321,6 +321,8 @@ p.cta-sub-title {
 #portfolio {
 	background: #e1e1e1;
 	padding: 80px 0;
+	max-height: 100vh;
+  overflow-y: scroll;
 }
 
 #portfolio #portfolio-wrapper {
@@ -361,8 +363,8 @@ p.cta-sub-title {
 
 #portfolio .portfolio-item {
 	position: relative;
-	height: 200px;
-	width: 300px;
+	height: 140px;
+	width: 190px;
 	overflow: hidden !important;
 	margin-bottom: 15px;
 	transition: all 350ms ease;
