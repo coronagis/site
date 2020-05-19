@@ -430,9 +430,9 @@ p.cta-sub-title {
 }
 
 .card-img-wapper {
-	width: 50%;
+	width: 30%;
 	float: left;
-	height: 150px;
+	height: 100px;
 	overflow: hidden;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -631,12 +631,6 @@ p.cta-sub-title {
 @media (min-width: 301px) and (max-width: 450px) {
 	.card {
 		margin: 0px;
-	}
-
-	.card-img-wapper {
-		width: 90%;
-		height: 240px;
-		margin: 10x auto;
 	}
 	
 	.email-footer {
