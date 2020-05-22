@@ -25,6 +25,7 @@ Header
 **************************************/
 .nav-link {
 	font-size: 0.9rem;
+	color: #fff !important;
 }
 
 .navbar-brand img{
@@ -58,39 +59,13 @@ Header
 	text-transform: uppercase;
 	height: 60px;
 	margin-bottom: -45px;
-	background-color: #e1e1e1;
+	background-color: #17395e;
 }
 
 .navbar-collapse {
 	position: relative;
-	background-color: #e1e1e1;
+	background-color: #17395e;
 	z-index: 9999;
-}
-
-.jumbotron {
-	background: url('../img/portfolio/NUMERO_CASOS.png') no-repeat;
-	background-size: cover;
-	min-height: 500px;
-	padding-top: 200px;
-}
-
-.jumbotron p.big {
-	line-height: 21px;
-	border-width: 0px;
-	margin: 0px;
-	padding: 0px;
-	letter-spacing: 6px;
-	font-size: 15px;
-	color: #333;
-	text-transform: uppercase;
-	font-weight: 400;
-	color: #333;
-	-webkit-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
-	-moz-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
-	-ms-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
-	filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
-	padding-top: 10px;
-	background-color: lightblue;
 }
 
 a.btn-banner {
@@ -173,7 +148,7 @@ a.btn-banner:focus {
 
 .cta-1,
 .cta2 {
-	background-color: #ed3237;
+	background-color: rgb(94, 153, 209);
 	padding: 40px 0px;
 }
 
@@ -184,11 +159,11 @@ p.cta-sub-title {
 .pg-titl-bdr-btm {
 	width: 100px;
 	height: 3px;
-	background-color: #add8e6;
+	background-color: #ed3237;
 }
 
 .service-box {
-	margin: 0 0 60px;
+	margin: 0px;
 	display: inline-block;
 }
 
@@ -211,7 +186,7 @@ p.cta-sub-title {
 }
 
 .service-box .service-text {
-	width: 70%;
+	width: 90%;
 	margin-bottom: 20px;
 }
 
@@ -232,6 +207,10 @@ p.cta-sub-title {
 	margin-bottom: 40px;
 }
 
+.page-title h1 {
+	/* background: linear-gradient(90deg, rgba(255,255,255,1) 30%, rgba(255,49,49,1) 50%, rgba(255,255,255,1) 70%); */
+	color: #17395e;
+}
 
 
 .fil-btn .active {
@@ -311,6 +290,34 @@ p.cta-sub-title {
 	font-size: 24px;
 }
 
+/* Home */
+
+#home {
+	background: url('../img/portfolio/NUMERO_CASOS.png') no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+}
+
+.over-lay {
+	position: absolute;
+	top: 15px;
+	left: 0px;
+	background-color: rgb(94, 153, 209);
+	height: 555px;
+	width: 100%;
+	opacity: 0.4;
+	margin-top: 45px;
+	z-index: 1;
+}
+
+.home-title {
+	position: relative;
+	top: 330px;
+	z-index: 10;
+	opacity: 1;
+	color: #fff;
+}
 /* Sobre */
 
 .about-video {
@@ -319,10 +326,7 @@ p.cta-sub-title {
 
 /* Portfolio */
 #portfolio {
-	background: #e1e1e1;
 	padding: 80px 0;
-	max-height: 100vh;
-  overflow-y: scroll;
 }
 
 #portfolio #portfolio-wrapper {
@@ -389,7 +393,7 @@ p.cta-sub-title {
 	height: 50px;
 	background: #ed3237;
 	position: absolute;
-	width: 100%;
+	width: 92%;
 	height: 50px;
 	bottom: -50px;
 	transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -447,7 +451,7 @@ p.cta-sub-title {
 }
 
 .card-title {
-	background-color: #f5f5f5;
+	background-color: #ed323817;
 	font-size: 0.90rem;
 	padding: 5px;
 	font-weight: 700;
@@ -537,43 +541,10 @@ p.cta-sub-title {
 }
 
 /* Footer */
-.footer {
-	background-color: #040E18;
-}
 
-.footer h3 {
-	color: #fff;
-	padding-bottom: 30px;
-}
-
-.footer_social ul {
-	list-style: outside none none;
-	margin: 0;
-	padding: 0;
-}
-
-.footer_social ul li {
-	margin: 2px;
-	display: inline-block;
-}
-
-.footer_social ul li a {
-	background: #2e3537 none repeat scroll 0 0;
-	border: 1px solid #2e3537;
-	box-shadow: 0 0 0 7px transparent;
-	color: #aaa;
-	display: block;
-	font-size: 14px;
-	height: 40px;
-	line-height: 21px;
-	padding: 9px 13px;
-	-webkit-transition: all 0.4s ease 0s;
-	transition: all 0.4s ease 0s;
-	width: 40px;
-}
 
 .footer-bottom {
-	background: #09121B;
+	background: #17395e;
 	padding: 20px 0;
 }
 
@@ -673,10 +644,6 @@ p.cta-sub-title {
 
 	.service-box .service-text h3 {
 		padding-top: 15px;
-	}
-
-	.jumbotron h1.small {
-		font-size: 2rem;
 	}
 
 	h1.cta-title {
