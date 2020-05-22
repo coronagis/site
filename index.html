@@ -48,18 +48,18 @@
 <body>
   <!--HEADER START-->
 
-  <nav class="navbar navbar-expand-lg navbar-light">
+  <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
       <a class="navbar-brand" href="/#">
         <img src="img/logo.svg" alt="Logotipo CoronaGIS">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon text-whait"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbar">
         <ul class="navbar-nav align-items-center">
           <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
-          <li class="nav-item"><a class="nav-link" href="#service">Produtos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
           <li class="nav-item"><a class="nav-link" href="#portfolio">Portfólio</a></li>
           <li class="nav-item"><a class="nav-link" href="#about">Equipe</a></li>
           <!-- <li><a href="#">WebGIS</a></li>
@@ -73,54 +73,63 @@
 
   <!--home START-->
   <div id="home" class="section-padding">
-    <div class="jumbotron">
-      <div class="container">
-        <h1 class="small">Bem vind@s ao <span class="bold"><b>CoronaGIS</b></span></h1>
-        <p class="big">SOLUÇÕES PARA CADASTRO E DIVULGAÇÃO DE DADOS EPIDEMIOLÓGICOS</p>
-      </div>          
-    </div>
+    <div class="over-lay"></div>
+    <div class="container">
+      <div class="home-title">
+        <h1 class="">Bem vind@s ao <span class="bold"><b>CoronaGIS</b></span></h1>
+        <p class="">SOLUÇÕES PARA CADASTRO E DIVULGAÇÃO DE DADOS EPIDEMIOLÓGICOS</p>
+      </div>                
+    </div>        
   </div>
   <!--home END-->
 
   <!--Sobre--> 
   <div id="sobre" class="section-padding">
     <div class="container">      
-      <div class="page-title">
+      <div class="page-title text-center">
         <h1>Sobre o Projeto</h1>
         <p>Nossas Intenções</p>
         <hr class="pg-titl-bdr-btm"></hr>
-        <div class="row">
-          <div class="col-lg-6 about-img">
-            <video class="about-video" autoplay loop muted playsinline>
-              <source src="img/gif/avanco-covid.mp4" type="video/mp4">
-              <img src="img/gif/avanco-covid.mp4">
-          </video>
-          </div>
-          
-          <div class="col-lg-6 content">
-            <p class="intro-text">Desenvolvimento de aplicação WebGIS para divulgar informações epidemiológicas, utilizando como 
-              Estudo de Caso a disseminação do Coronavírus (COVID-19) no Estado de Santa Catarina.
-            </p>
-            <p class="intro-text">
-              Desenvolvimento de API (Application Programming Interface) a ser utilizado como recurso 
-              tecnológico para auxílio no diagnóstico, acompanhamento e divulgação de epidemias.
-            </p>
-          </div>
-        </div>
-      </section>
+      </div>      
+      <div>
+        Equipe multidisciplinar nacional e internacional composta por professores pesquisadores de diversas 
+        instituições e profissionais voluntários está desenvolvendo um projeto de pesquisa para auxiliar no 
+        diagnóstico, acompanhamento e divulgação de epidemias.  O projeto CoronaGIS, coordenado pela professora 
+        Vivian da Silva Celestino Reginato, do Departamento de Engenharia Civil da UFSC, tem por objetivo desenvolver 
+        sistema Web para cadastro e divulgação do COVID-19.
+        Os pesquisadores têm utilizado, como Estudo de Caso, a evolução da pandemia de Coronavírus no 
+        Estado de Santa Catarina desde o dia em que ocorreu a confirmação do primeiro caso de COVID-19. 
+        Diversas análises têm sido realizadas no sentido de mapear a ocorrência e a difusão do vírus no Estado, 
+        desenvolver índices de suscetibilidade, bem como estimar o pico da curva epidêmica.
+        <br />
+        A primeira etapa do projeto, que está em fase de desenvolvimento, é um WebGIS, que vai além de um 
+        Sistemas de Informações Geográficas (SIG) para divulgar dados do Coronavírus, mas de uma forma de 
+        apresentação interativa que permite a consulta de diversas informações em relação à difusão do vírus 
+        no espaço e no tempo. A plataforma, segunda etapa do projeto a ser desenvolvida, contará com um sistema 
+        flexível para cadastrar informações de pacientes e entidades de saúde de forma dinâmica, permitindo 
+        a tomada de decisão integrada por parte dos gestores públicos na ocorrência de diferentes epidemias e, 
+        ainda relacionar modelagens futuras e sistemas semânticos e espaciais legados. Quando concluída a plataforma 
+        se constituirá em um Banco de Dados Geográfico Epidemiológico, que permitirá a integração geográfica com os 
+        sistemas disponibilizados pelo Sistema Nacional de Informações em Saúde (SNIS) do Departamento de Informática 
+        do Sistema Único de Saúde (DATASUS), o portal de Transparência do Registro Civil e o Sistema IBGE de Recuperação 
+        Automática (SIDRA), entre outros.
+        <br />
+        O CoronaGIS conta com 22 profissionais, todos trabalhando remotamente, está sendo desenvolvido com softwares livres, 
+        sem nenhum financiamento público ou privado. Os produtos desenvolvidos serão disponibilizados gratuitamente. 
+        Mapas virtuais e para impressão dos primeiros dias do Coronavírus no Estado de Santa Catarina já estão disponíveis.
       </div>
-    </div>    
+    </div>   
   </div>
 
     <!--Produtos-->
-    <div id="service" class="section-padding">
+    <div id="produtos" class="section-padding">
       <div class="container">        
         <div class="page-title text-center">
           <h1>Produtos</h1>
           <p>Resultados do Projeto</p>
           <hr class="pg-titl-bdr-btm"></hr>
         </div>
-        <div class="autoplay">
+        <div class="autoplay-products">
           <div class="service-box">
             <div class="service-icon"><i class="fa fa-database"></i></div>
             <div class="service-text">
@@ -202,42 +211,6 @@
             <img class="portfolio-item-img" src="img/portfolio/modelagem/fluxo-corona.jpg" alt="Fluxo de dados ">
             <div class="details">
               <h4>Fluxo Corona</h4>
-              <!-- <span>Fluxo Corona</span> -->
-            </div>
-          </a>
-        </div>
-        <div class="portfolio-item filter-covidMaps">
-          <a target="_blank" href="img/portfolio/covid-maps/00-CASOS_POR_MUNICIPIO.pdf">
-            <img class="portfolio-item-img" src="img/portfolio/covid-maps/00-CASOS_POR_MUNICIPIO.jpg" alt="Casos por municipio 23/04/2020">
-            <div class="details">
-              <h4>Casos por Municipio 23/04/2020</h4>
-              <!-- <span>Fluxo Corona</span> -->
-            </div>
-          </a>
-        </div>
-        <div class="portfolio-item filter-covidMaps">
-          <a target="_blank" href="img/portfolio/covid-maps/00-MUNICIPIOS_AFETADOS_CASOS.pdf">
-            <img class="portfolio-item-img" src="img/portfolio/covid-maps/00-MUNICIPIOS_AFETADOS_CASOS.jpg" alt="Municípios afetados - Casos 23/04/2020">
-            <div class="details">
-              <h4>Municípios Afetados 23/04/2020</h4>
-              <!-- <span>Fluxo Corona</span> -->
-            </div>
-          </a>
-        </div>
-        <div class="portfolio-item filter-covidMaps">
-          <a target="_blank" href="img/portfolio/covid-maps/00-MUNICIPIOS_AFETADOS_OBITOS.pdf">
-            <img class="portfolio-item-img" src="img/portfolio/covid-maps/00-MUNICIPIOS_AFETADOS_OBITOS.jpg" alt="Municipios afetados - Óbitos 23/04/2020">
-            <div class="details">
-              <h4>Municipios Afetados - Óbitos 23/04/2020</h4>
-              <!-- <span>Fluxo Corona</span> -->
-            </div>
-          </a>
-        </div>
-        <div class="portfolio-item filter-covidMaps">
-          <a target="_blank" href="img/portfolio/covid-maps/00-OBITOS_POR_MUNICIPIO.pdf">
-            <img class="portfolio-item-img" src="img/portfolio/covid-maps/00-OBITOS_POR_MUNICIPIO.jpg" alt="Óbitos por Municipio 23/04/2020">
-            <div class="details">
-              <h4>Óbitos por município afetado 23/04/2020</h4>
               <!-- <span>Fluxo Corona</span> -->
             </div>
           </a>
@@ -363,7 +336,7 @@
           <p>Nosso Grupo de Pesquisadores.</p>
           <hr class="pg-titl-bdr-btm"></hr>
         </div>
-        <div class="autoplay">
+        <div class="autoplay-team">
 
           <!--Vivian-->
           <div class="card">
@@ -738,6 +711,7 @@
     <div class="container">
       <div class="page-title text-center">
         <h1> Contate-nos</h1>
+        <p>projeto.coronagis@gmail.com</p>
         <p>Envie seu email e converse com nossa equipe. </p>
         <hr class="pg-titl-bdr-btm"></hr>
       </div>
@@ -775,23 +749,8 @@
   <!--CONTACT END-->
 
   <!--FOOTER START-->
-  <footer class="footer section-padding">
-    <div class="container">
-      <div class="row">
-        <div style="visibility: visible; animation-name: zoomIn;" class="col-sm-12 text-center wow zoomIn">
-          <h3> Outros Contatos</h3>
-          <p class="email-footer text-white">projeto.coronagis@gmail.com</p>
-          <div class="footer_social">
-            <ul>
-              <li><a class="f_google" href="mailto:projeto.coronagis@gmail.com"><i class="fa fa-envelope"></i></a></li>
-              <!-- <li><a class="f_linkedin" href="tel:"><i class="fa fa-phone"></i></a></li> -->
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <!--FOOTER END-->
+  
+  
   <div class="footer-bottom">
     <div class="container">
       <div style="visibility: visible; animation-name: zoomIn;" class="col-md-12 text-center wow zoomIn">
@@ -810,6 +769,7 @@
       </div>
     </div>
   </div>
+  <!--FOOTER END-->
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery.easing.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
