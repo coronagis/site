@@ -290,6 +290,13 @@ p.cta-sub-title {
 	font-size: 24px;
 }
 
+/* Eventos */
+
+.event-img {
+    width: 100%;
+    margin: 20px auto;
+}
+
 /* Home */
 
 #home {
